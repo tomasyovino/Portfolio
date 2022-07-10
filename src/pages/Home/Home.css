@@ -1,14 +1,14 @@
-section {
+.home {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     color: aliceblue;
     background-image: url('../../assets/images/background.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
 
-section > div {
+.home > div {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -17,17 +17,17 @@ section > div {
     transition: all 0.5s ease-in;
 }
 
-section div h1 {
+.home div h1 {
     font-size: 3em;
 }
 
-section div h3 {
+.home div h3 {
     font-weight: lighter;
     font-size: 1em;
     text-align: center;
 }
 
-section div div {
+.home div div {
     margin-top: 1.875rem;
     width: 100%;
     display: flex;
@@ -36,7 +36,7 @@ section div div {
     transition: all 0.5s ease-in;
 }
 
-section div button {
+.home div button {
     padding: 0.625rem;
     font-size: 1em;
     border: solid 1px aliceblue;
@@ -45,12 +45,12 @@ section div button {
     background-color: transparent;
 }
 
-section div button:hover {
+.home div button:hover {
     border: solid 1px #e7bd70;
     color: #e7bd70;
 }
 
-section nav {
+.home nav {
     display: flex;
     position: fixed;
     font-size: 1em;
@@ -63,21 +63,21 @@ section nav {
     z-index: 1;
 }
 
-section nav img {
+.home nav img {
     border-radius: 100%;
 }
 
 @media only screen and (min-width:1200px) {
-    section > div {
+    .home > div {
         margin-top: 125px;
     }
 
-    section div div {
+    .home div div {
         justify-content: center;
         gap: 50px;
     }
 
-    section nav {
+    .home nav {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -89,8 +89,15 @@ section nav img {
 }
 
 @media only screen and (min-width:1200px) and (min-height:1024px) {
-    section > div {
+    .home > div {
         margin-top: 300px;
         margin-left: 200px;
+    }
+}
+
+@media only screen and (min-width:1600px) {
+    .home > div {
+        margin-top: 250px;
+        margin-left: 100px;
     }
 }

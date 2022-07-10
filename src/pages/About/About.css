@@ -1,0 +1,98 @@
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.about {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1em;
+    gap: 30px;
+    color: aliceblue;
+    background-color: #141414;
+    z-index: 2;
+}
+
+.about div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625em;
+    border-left: solid #e7bd70 3px;
+    border-radius: 3px;
+}
+
+.about div h3 {
+    font-size: 1.25em;
+    margin-left: 0.9375em;
+}
+
+.about div p {
+    margin-left: 0.9375em;
+}
+
+.presentation {
+    height: 100%;
+    animation: appear;
+    animation-duration: 6s;
+}
+
+.projection {
+    animation: appear;
+    animation-duration: 7s;
+}
+
+.hobbies {
+    animation: appear;
+    animation-duration: 8s;
+}
+
+.certificates {
+    animation: appear;
+    animation-duration: 8.5s;
+}
+
+.works {
+    animation: appear;
+    animation-duration: 9s;
+}
+
+@media only screen and (min-width:1200px) {
+    .about {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: "presentation projection certificates"
+                             "presentation hobbies works";
+        align-items: start;
+    }
+
+    .presentation {
+        grid-area: presentation;
+    }
+    
+    .projection {
+        grid-area: projection;
+    }
+    
+    .hobbies {
+        grid-area: hobbies;
+    }
+    
+    .certificates {
+        grid-area: certificates;
+    }
+    
+    .works {
+        grid-area: works;
+    }
+}

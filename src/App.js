@@ -1,12 +1,15 @@
 import './App.css';
+import { BrowserRouter } from 'react-router-dom';
 import Header from './components/Header/Header.js';
-import Home from './views/Home/Home';
+import AnimatedRoutes from './components/AnimatedRoutes';
 
 const App = () => {
   return (
     <div className="App">
-      <Header />
-      <Home />
+      <BrowserRouter>
+        <Header />
+        <AnimatedRoutes />
+      </BrowserRouter>
     </div>
   );
 }
