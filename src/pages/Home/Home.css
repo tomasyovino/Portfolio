@@ -1,15 +1,15 @@
 .home {
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     color: aliceblue;
-    background-image: url('../../assets/images/background.jpg');
+    background-image: url('../../assets/images/background2.webp');
     background-size: cover;
     background-attachment: fixed;
 }
 
 .home > div {
-    margin-top: 50px;
+    margin-top: 7.125em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,37 +67,35 @@
     border-radius: 100%;
 }
 
+@media only screen and (min-width:720px) {
+    .home > div {
+        margin-top: 6.25em;
+        margin-right: 14.0625em;
+    }
+}
+
 @media only screen and (min-width:1200px) {
     .home > div {
-        margin-top: 125px;
+        margin-top: 9.375em;
+        margin-right: 32.8125em;
     }
 
     .home div div {
         justify-content: center;
         gap: 50px;
     }
-
-    .home nav {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 3px;
-        bottom: 5%;
-        left: 96%;
-    }
 }
 
 @media only screen and (min-width:1200px) and (min-height:1024px) {
     .home > div {
-        margin-top: 300px;
-        margin-left: 200px;
+        margin-top: 18.75em;
+        margin-left: 12.5em;
     }
 }
 
 @media only screen and (min-width:1600px) {
     .home > div {
-        margin-top: 250px;
-        margin-left: 100px;
+        margin-top: 9.375em;
+        margin-right: 35.8125em;
     }
 }

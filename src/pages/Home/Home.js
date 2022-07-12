@@ -5,6 +5,8 @@ import github from '../../assets/icons/github_icon.png';
 import { motion } from 'framer-motion';
 
 const Home = () => {
+    
+
     return(
         <motion.section className="home"
             initial={{opacity: 0}}
@@ -20,9 +22,9 @@ const Home = () => {
                 </div>
             </div>
             <nav>
-                <img src={linkedin} alt='logo' />
-                <img src={instagram} alt='logo' />
-                <img src={github} alt='logo' />
+                <a target="_blank" href="https://www.linkedin.com/in/tomás-yovino-a0955a238" rel="nofollow noreferrer noopener" className='link'><img src={linkedin} alt='logo' /></a>
+                <a target="_blank" href="https://www.instagram.com/tomasyovino/" rel="nofollow noreferrer noopener" className='link'><img src={instagram} alt='logo' /></a>
+                <a target="_blank" href="https://www.github.com/tomasyovino " rel="nofollow noreferrer noopener" className='link'><img src={github} alt='logo' /></a>
             </nav>
         </motion.section>
     );
