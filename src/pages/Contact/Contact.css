@@ -1,7 +1,26 @@
 .contact{
-    width: 100%;
-    height: 100vh;
-    text-align: center;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: aliceblue;
     background-color: #141414;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.contact_title {
+    margin-bottom: 0.9375em;
+}
+
+.contact_flexContainer {
+    padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .contact_flexContainer {
+        display: flex;
+        flex-direction: row;
+    }
 }

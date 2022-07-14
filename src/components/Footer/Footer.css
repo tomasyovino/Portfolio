@@ -1,0 +1,42 @@
+#Footer{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    padding: 25px 50px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.875em;
+    color: darkgrey;
+    background-color: #202020;
+}
+
+#Footer > div {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Footer div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+}
+
+#Footer div div > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: darkgrey;
+}
+
+#CopyrightSign{
+    font-size: small;
+}
+
+@media only screen and (min-width: 1200px) {
+    #Footer{
+        display: flex;
+    }
+}

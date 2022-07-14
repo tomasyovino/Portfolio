@@ -20,6 +20,8 @@
     color: aliceblue;
     background-color: #141414;
     z-index: 2;
+    border-top: #e7bd70 double 4px;
+    border-bottom: #e7bd70 double 4px;
 }
 
 .about div {

@@ -3,6 +3,7 @@ import linkedin from '../../assets/icons/linkedin_icon.png';
 import instagram from '../../assets/icons/instagram_icon.png';
 import github from '../../assets/icons/github_icon.png';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     
@@ -18,7 +19,7 @@ const Home = () => {
                 <h3>Desarrollador Fullstack</h3>
                 <div>
                     <button>Visita mi perfil</button>
-                    <button>Contáctame</button>
+                    <Link to="/contact" className='link'><button>Contáctame</button></Link>
                 </div>
             </div>
             <nav>
