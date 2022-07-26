@@ -1,8 +1,8 @@
 import './Contact.css';
 import { motion } from 'framer-motion';
-import Message from '../../components/Message/Message';
-import Form from '../../components/Form/Form';
-import Footer from '../../components/Footer/Footer';
+import Message from '../../components/interactions/Message/Message';
+import Form from '../../components/interactions/Form/Form';
+import Footer from '../../components/pagesElements/Footer/Footer';
 
 const Contact = () => {
     return(

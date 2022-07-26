@@ -11,19 +11,20 @@ header nav {
     display: flex;
     justify-content: center;
     gap: 1.5625em;
-    color: aliceblue;
     font-weight: 400;
 }
 
-header nav span {
-    color: aliceblue;
-}
-
-header nav span:hover {
-    color: #e7bd70;
-}
-
 .active {
+    color: #e7bd70;
+    text-decoration: none;
+}
+
+.inactive {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.inactive:hover {
     color: #e7bd70;
 }
 
