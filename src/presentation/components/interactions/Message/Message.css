@@ -13,6 +13,6 @@
     padding: 5px 10px;
     border: solid 1px #e7bd70;
     border-radius: 30px;
-    color: #e7bd70;
+    color: #e7bd70 !important;
     background-color: transparent;
 }

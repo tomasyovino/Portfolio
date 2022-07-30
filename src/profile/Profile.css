@@ -1,0 +1,31 @@
+/* Custom fonts */
+@font-face {
+    font-family: Centra;
+    src: url("../assets/fonts/CentraNo2-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: Centra;
+    src: url("../assets/fonts/CentraNo2-Medium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: Centra;
+    src: url("../assets/fonts/CentraNo2-Book.ttf");
+    font-weight: 400;
+}
+
+/* Default CSS */
+#profile {
+    font-weight: 400;
+    position: relative;
+    background-color: #fff !important;
+    color: black !important;
+    font-family: "Centra", sans-serif !important;
+}
+
+#profile h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}

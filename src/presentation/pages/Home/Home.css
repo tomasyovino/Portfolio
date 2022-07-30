@@ -3,9 +3,10 @@
     width: 100%;
     height: 85vh;
     color: aliceblue;
-    background-image: url('../../assets/images/background2.webp');
+    background-image: url('../../../assets/images/background2.webp');
     background-size: cover;
     background-attachment: fixed;
+    z-index: 5;
 }
 
 .home > div {
@@ -53,7 +54,7 @@
 
 .home nav {
     display: flex;
-    position: fixed;
+    position: absolute;
     font-size: 1em;
     justify-content: center;
     align-items: center;

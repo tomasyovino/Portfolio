@@ -11,12 +11,9 @@ const Contact = () => {
             animate={{opacity: 1, transition:{duration: 2}}}
             exit={{opacity: 0}}
         >
-            <div>
-                <h2 className="contact_title">Contáctame</h2>
-                <div className='contact_flexContainer'>
-                    <Message />
-                    <Form />
-                </div>
+            <div className='contact_flexContainer'>
+                <Message />
+                <Form />
             </div>
             <Footer />
         </motion.section>

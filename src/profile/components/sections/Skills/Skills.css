@@ -1,0 +1,82 @@
+.skill {
+    padding: 0 0 50px 0;
+    position: relative;
+}
+
+.skill-bx {
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.skill p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+
+.skill-slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+.skill-slider .item {
+    position: relative;
+}
+
+.skill-slider .cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 96px;
+}
+
+.skill-slider .item img {
+    width: 50%;
+    height: 96px;
+    margin: 0 auto 15px auto;
+}
+
+.softSkill-bx {
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.softSkill-bx .features-bx {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px 60px 20px 20px;
+}
+
+.softSkill-bx .features-bx img {
+    height: 128px;
+}
+
+.softSkill-bx .features-description {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    padding: 10px 60px 20px 20px;
+}
+
+.softSkill-bx .features-description p {
+    margin: 0;
+    padding: 30px 20px 60px;
+    color: black;
+    font-weight: 400;
+    border-radius: 10px;
+    box-shadow: 20px 14px 32px -10px rgba(0,0,0,0.75);
+}

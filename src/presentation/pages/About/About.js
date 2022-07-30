@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 const About = () => {
     return(
         <motion.section className="about"
-            initial={{right: "-100%"}}
-            animate={{right: 0, transition:{duration: 1}}}
-            exit={{x: window.innerWidth, transition:{duration: 1}}}
+            initial={{opacity: 0}}
+            animate={{opacity: 1, transition:{duration: 2}}}
+            exit={{opacity: 0}}
         >
             <div className="presentation" >
                 <h3>Presentación</h3>

@@ -5,6 +5,7 @@ header {
     width: 100%;
     height: 15vh;
     background-color: #141414;
+    z-index: 9999;
 }
 
 header nav {
@@ -15,12 +16,12 @@ header nav {
 }
 
 .active {
-    color: #e7bd70;
+    color: #e7bd70 !important; 
     text-decoration: none;
 }
 
 .inactive {
-    color: aliceblue;
+    color: aliceblue !important; 
     text-decoration: none;
 }
 

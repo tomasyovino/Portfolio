@@ -10,11 +10,8 @@
     overflow-y: scroll;
 }
 
-.contact_title {
-    margin-bottom: 0.9375em;
-}
-
 .contact_flexContainer {
+    margin: 100px 0;
     padding-bottom: 20px;
 }
 

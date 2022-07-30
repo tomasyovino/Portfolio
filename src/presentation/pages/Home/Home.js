@@ -1,7 +1,7 @@
 import './Home.css';
-import linkedin from '../../assets/icons/linkedin_icon.png';
-import instagram from '../../assets/icons/instagram_icon.png';
-import github from '../../assets/icons/github_icon.png';
+import linkedin from '../../../assets/icons/linkedin_icon.png';
+import instagram from '../../../assets/icons/instagram_icon.png';
+import github from '../../../assets/icons/github_icon.png';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
@@ -10,15 +10,15 @@ const Home = () => {
 
     return(
         <motion.section className="home"
-            initial={{opacity: 0}}
-            animate={{opacity: 1, transition:{duration: 1}}}
-            exit={{opacity: 0, transition:{duration: 1}}}
+            initial={{bottom: "-100%"}}
+            animate={{bottom: 0, transition:{duration: 1}}}
+            exit={{top: "100%", transition:{duration: 1}}}
         >
             <div>
                 <h1>Hola, <br /> soy Tomás</h1>
                 <h3>Desarrollador Fullstack</h3>
                 <div>
-                    <button>Visita mi perfil</button>
+                    <Link to="/profile" className='link'><button>Visita mi perfil</button></Link>
                     <Link to="/contact" className='link'><button>Contáctame</button></Link>
                 </div>
             </div>
