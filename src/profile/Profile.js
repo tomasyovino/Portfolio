@@ -1,8 +1,9 @@
 import "./Profile.css";
 import { useEffect } from "react";
-import NavBar from "./components/Navbar/NavBar";
+import NavBar from "./components/pagesElements/Navbar/NavBar";
 import Banner from "./components/sections/Banner/Banner";
 import Skills from "./components/sections/Skills/Skills";
+import Projects from "./components/sections/Projects/Projects";
 
 const Profile = ({handle}) => {
     useEffect(() => {
@@ -15,6 +16,7 @@ const Profile = ({handle}) => {
             <NavBar />
             <Banner />
             <Skills />
+            <Projects />
         </div>
     );
 }
