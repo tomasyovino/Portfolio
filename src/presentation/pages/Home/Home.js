@@ -19,7 +19,7 @@ const Home = () => {
                 <h3>Desarrollador Fullstack</h3>
                 <div>
                     <Link to="/profile" className='link'><button>Visita mi perfil</button></Link>
-                    <Link to="/contact" className='link'><button>Contáctame</button></Link>
+                    <Link to="/profile#connect" className='link'><button>Contáctame</button></Link>
                 </div>
             </div>
             <nav>

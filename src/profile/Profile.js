@@ -4,6 +4,8 @@ import NavBar from "./components/pagesElements/Navbar/NavBar";
 import Banner from "./components/sections/Banner/Banner";
 import Skills from "./components/sections/Skills/Skills";
 import Projects from "./components/sections/Projects/Projects";
+import Contact from "./components/sections/Contact/Contact";
+import Footer from "./components/pagesElements/Footer/Footer";
 
 const Profile = ({handle}) => {
     useEffect(() => {
@@ -17,6 +19,8 @@ const Profile = ({handle}) => {
             <Banner />
             <Skills />
             <Projects />
+            <Contact />
+            <Footer />
         </div>
     );
 }

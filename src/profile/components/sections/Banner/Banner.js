@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import profileImg from "../../../../assets/images/profileImg.jpg";
+import profileImg from "../../../../assets/images/banner-img.svg";
 import "./Banner.css";
 
 const Banner = () => {
@@ -54,11 +54,11 @@ const Banner = () => {
                         <span className="tagline">Bienvenid@ a mi Portfolio</span>
                         <br />
                         <div className="title-container">
-                            <h1>{`Contrátame como: `}<br /><span className="wrap">{text}</span></h1>
+                            <h1>{`Tomás Yovino`}<br /><span className="wrap">{text}</span></h1>
                         </div>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <div className="button-container">
-                            <button onClick={() => console.log("connect")}>Contáctame <ArrowRightCircle size={25} /></button>
+                            <a href="#connect" ><button onClick={() => console.log("connect")}>Contáctame <ArrowRightCircle size={25} /></button></a>
                         </div>
                     </Col>
                     <Col xs={12} md={6} xl={5}>

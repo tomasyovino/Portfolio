@@ -1,6 +1,10 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import meter1 from "../../../../assets/images/meter1.svg";
+import meter2 from "../../../../assets/images/meter2.svg";
+import meter3 from "../../../../assets/images/meter3.svg";
+import colorSharp from "../../../../assets/images/color-sharp.png"
 import logo1 from "../../../../assets/images/html.svg";
 import logo2 from "../../../../assets/images/css.svg";
 import logo3 from "../../../../assets/images/bootstrap.svg";
@@ -101,7 +105,7 @@ const Skills = () => {
                             <div className="softSkill-bx">
                                 <div className="features-bx">
                                     <h3 className="features-title">Random feature</h3>
-                                    <img src={logo8} alt="Imageasd" />
+                                    <img src={meter1} alt="Imageasd" />
                                 </div>
                                 <div className="features-description">
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -110,7 +114,7 @@ const Skills = () => {
                             <div className="softSkill-bx">
                                 <div className="features-bx">
                                     <h3 className="features-title">Random feature</h3>
-                                    <img src={logo4} alt="Imageasd" />
+                                    <img src={meter2} alt="Imageasd" />
                                 </div>
                                 <div className="features-description">
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -119,7 +123,7 @@ const Skills = () => {
                             <div className="softSkill-bx">
                                 <div className="features-bx">
                                     <h3 className="features-title">Random feature</h3>
-                                    <img src={logo2} alt="Imageasd" />
+                                    <img src={meter3} alt="Imageasd" />
                                 </div>
                                 <div className="features-description">
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -129,6 +133,7 @@ const Skills = () => {
                     </Col>
                 </Row>
             </Container>
+            <img className="background-image-left" src={colorSharp} alt="Image" />
         </section>
     );
 }

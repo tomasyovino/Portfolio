@@ -18,7 +18,6 @@ const Header = ({pathFlag}) => {
             <nav>
                 <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Inicio</NavLink>
                 <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Sobre mí</NavLink>
-                <NavLink to="/profile" className={({ isActive }) => (isActive ? 'active' : 'inactive')}sd>Mi perfil</NavLink>
             </nav>
             <img id="logo" src={logo} alt='logo' />
             <img id="logo1200" src={logo1200} alt='logo' />
