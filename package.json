@@ -11,9 +11,13 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.0",
+    "concurrently": "^7.3.0",
+    "cors": "^2.8.5",
     "emailjs-com": "^3.2.0",
+    "express": "^4.18.1",
     "framer-motion": "^6.4.3",
     "history": "^5.3.0",
+    "nodemailer": "^6.7.7",
     "react": "^18.2.0",
     "react-bootstrap": "^2.4.0",
     "react-bootstrap-icons": "^1.8.4",
@@ -26,7 +30,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently \"react-scripts start\" \"node server.js\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

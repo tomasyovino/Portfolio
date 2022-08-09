@@ -40,7 +40,7 @@ const NavBar = () => {
                     <span>TY</span>
                 </Navbar.Brand>
                     <span className="navbar-text">
-                        <button className="vvd" onClick={() => console.log("connect")}><span>Contáctame</span></button>
+                        <Nav.Link href="#connect"><button className="vvd"><span>Contáctame</span></button></Nav.Link>
                     </span>
                 </Navbar.Collapse>
             </Container>
